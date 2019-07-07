@@ -1,0 +1,5 @@
+
+# 打印横幅
+spring:
+  main:
+    bannerMode: "off"

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.yusite</groupId>
+    <artifactId>root</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>root</name>
+    <url>http://yusite.cn</url>
+    <inceptionYear>2019</inceptionYear>
+
+    <developers>
+        <developer>
+            <name>ShijieMao</name>
+            <email>ligongdamao@163.com</email>
+            <url>http://yusite.cn</url>
+            <organization>zpxx</organization>
+        </developer>
+    </developers>
+
+    <modules>
+        <module>../eureka</module>
+        <module>../config</module>
+        <!--<module>../gateway</module>-->
+        <!--<module>../modules/core/core</module>-->
+        <module>../modules/test1/test1-client</module>
+        <module>../modules/test1/test1</module>
+        <!--<module>../modules/test2/test2-client</module>-->
+        <!--<module>../modules/test2/test2</module>-->
+        <module>../modules/quartz/quartz</module>
+        <module>../modules/quartz/quartz-client</module>
+        <module>../modules/flowable/flowable</module>
+        <module>../modules/flowable/flowable-client</module>
+    </modules>
+
+
+</project>

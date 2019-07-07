@@ -1,0 +1,5 @@
+
+# 关闭横幅
+spring:
+  main:
+    bannerMode: "off"
